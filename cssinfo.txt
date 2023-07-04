@@ -1,0 +1,2 @@
+1)suppose if we want to take our image ate the backgroud and the make it transparaent just add the images in css.
+2) if we want to extend the image in the anaoter tag also just make that tag position: absolute means we want to move that particular element with the main contain also.
