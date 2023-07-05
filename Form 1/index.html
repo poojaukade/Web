@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- action and method attribute that how the form should be submitted  -->
+    <!-- action allow us to give the url of the form that is where the form should be form submitted (which is added after the domain name(http://127.0.0.1/))-->
+    <!-- default url is the website url  -->
+    <!-- METHOD: GET=it allow server to fetched the data AND POST=IT supports fro all browser and it sent post request to serever to store the data request -->
+   <header>
+    <h1>Demo Form</h1>
+   </header>
+   <main>
+    
+    <form action="/" method="GET"><!-- if we add novalidate in the form it will not check the validation of the form -->
+        <section>
+            
+            <h2>User Personal detailes</h2>
+            <ul>
+            <li>
+                <label for="username">Your Name</label><!-- for attributeb in label and id in input will connect the label with input --><!-- name is used in form submission -->
+               
+                <input type="text" name="user-name" id="username" required/> <!-- input is void element doesnt not have closing tag. -->
+                <!-- required attribute will ensure the field should be non empty  -->
+            </li>
+            <li>
+                <label for="useremail">Your Email Address</label>
+                <input type="email" name="user-email" id="useremail"/>
+            </li>
+            <li>
+                <label for="yourpassword">password</label>
+                <input type="password" name="your-password" id="yourpassword" required minlength="7"/>
+            </li>
+        </ul>
+        </section>
+        <section>
+            <h2>More Detailes</h2>
+            <ul>
+                <li>
+                <label for="yourage">Your Age</label>
+                <input type="number" step="1" name="user-age" id="yourage" required/>
+            </li>
+            <li>
+                <label for="birthdate">Birth Date</label>
+                <input type="date" name="birth-date" id="birthdate" required/>
+            </li>
+            <li>
+                <label for="fav-color">Your Favriate color</label>
+            <select id="fav-color" name="favoate-color" required>
+            <option>Red</option>
+            <option>Orange</option>
+            <option>Blue</option>
+        </select>
+            </li>
+        </ul>
+        </section>
+        <section>
+            <label for="your-mess">Your Message</label>
+            <textarea id="your-mess" name="long-message" required row="2"></textarea>
+        </section>
+        <section>
+            <h2>How should we verify your account?</h2>
+            <ul >
+                <li class="form-control-inline">
+                    <input type="radio" name="verify" id="first" value="message" required/>
+                    <label for="first">vie a message(SMS)</label>
+                </li>
+                <li class="form-control-inline">
+                    <input type="radio" name="verify" id="second" value="phone" required/>
+                    <label for="second">vie phone call</label>
+                </li>
+                <li class="form-control-inline">
+                    <input type="radio" name="verify" id="third" value="email" required/>
+                    <label for="third">vie an email</label>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>How we should we contact you?</h2>
+            <ul>
+                <li class="form-control-inline">
+                    <input type="checkbox" name="contact" id="check-email" value="email" />
+                    <label for="check-email">contact me via emails</label>
+                </li>
+                <li class="form-control-inline">
+                    <input type="checkbox" name="contact" id="check-phone" value="phone"/>
+                    <label for="check-phone">contact me via phone</label>
+                </li>
+            </ul>
+        </section>
+        <hr/>
+        <section>
+            <div class="form-control-inline">
+                <input type="checkbox" name="contact" id="terms" />
+                <label for="terms">Agree to terms ?</label>
+            </div>
+        </section>
+        <section>
+            <button>Submit</button>
+        </section>
+     </form>  
+   </main>
+   
+</body>
+</html>
