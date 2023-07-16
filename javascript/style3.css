@@ -1,0 +1,46 @@
+/*#control {
+    display: block;
+}*/
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    font-weight: 900;
+}
+form {
+    width: 30rem;
+    background-color: red;
+    padding: 1rem 1rem;
+    border: 1px solid #bdbd39a2;
+    border-radius: 4px;
+    background-color: #bed7db;
+    margin-left: 40rem;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+
+
+}
+input {
+    margin-bottom: 0.5rem;
+    height: 1.5rem;
+    width: 20rem;
+    margin-right: 0.75rem;
+}
+button {
+    margin-bottom: 0.5rem;
+    height: 2rem;
+    width: 5rem;
+    border: 1px solid #c4c413a2;
+    border-radius: 4px;
+    background-color:  rgb(35, 104, 116);
+
+}
+input:hover {
+    background-color: rgb(64, 68, 68);
+    color:white;
+
+}
+button:hover {
+    background-color: rgb(65, 135, 151);
+}
