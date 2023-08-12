@@ -1,0 +1,93 @@
+ @media (max-width: 1300px)
+{
+    /* 2 Navbar*/
+   .header-wraper .menu-navbar-nav{
+    width:auto;
+   }
+}
+@media (max-width: 1230px){
+    /* 2 Navbar*/
+    .header-wraper .navbar-nav .nav-item{
+        margin:0 5px;
+        
+    }
+    .header-wraper .navbar-nav .nav-item .learn-more-btn{
+        padding:12px 10px !important;
+    }
+    .banner_wrapper .banner-title{
+        font-size: 50px;
+    }
+
+}
+@media (max-width: 1070px){
+    .header-wraper .nav-item .nav-link{
+        font-size: 16px;
+    }
+    .About-wrapper .about_title{
+        font-size: 16px;
+    }
+    
+}
+@media (max-width: 991px){
+    .header-wraper .navbar-brand img{
+        width: 180px;
+    }
+    .header-wraper .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .header-wraper .menu-navbar-nav{
+        text-align: center;
+    }
+    .header-wraper .nav-item .nav-link{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    .header-wraper .nav-item:last-child .nav-link{
+        margin-bottom: 20px;
+    }
+    .header-wraper .learn-more-btn{
+        padding:12px 29px !important;
+    } 
+    .header-wraper .navbar-collapse{
+        background:var(--bg-white);
+    }
+    .banner_wrapper .banner-title{
+        font-size: 36px;
+    }
+    .banner_wrapper{
+        padding:100px 0 100px;
+    }
+    .banner_wrapper .row{
+        flex-direction: column-reverse;
+    }
+    .banner_wrapper .learn-more-btn-section{
+        justify-content: center;
+    }
+    /* pricing */
+    .free_trial .free_title{
+        font-size: 24px;
+
+    }
+    /* About */
+    .About-wrapper .about_number{
+        margin:20px auto ;
+    }
+    .About-wrapper .about_title{
+        font-size: 24px;
+    }
+    /* FAQ */
+    .faq_wrapper .accordion-button{
+        font-size: 18px;
+    }
+    /* Footer */
+    .footer_wrapper .footer_logo img{
+        max-width: 50% ;
+    }
+    
+} 
+@media (max-width: 600px) 
+{
+    .About-wrapper .about_number{
+       margin-left: 50%;
+    }
+}
