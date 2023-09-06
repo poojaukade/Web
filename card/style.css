@@ -1,0 +1,125 @@
+body {
+    margin: 30px 40%;
+    background:linear-gradient(45deg,rgba(5, 5, 6, 0.979),rgb(3, 4, 5));
+   
+    --blue-1:rgb(19, 142, 142);
+    --blue-2:rgb(107, 195, 222);
+   --blue-3:rgb(153, 234, 233);
+    --blue-4:rgb(81, 86, 91);
+  
+}
+
+
+.card{
+    background:linear-gradient(45deg,rgb(230, 231, 232),rgb(107, 158, 172));
+    /*background-ctransition: ;
+    height:600px;
+    width:400px;
+    border: 1px solid  var(--blue-2);
+   /* text-shadow: 2px 2px 5px black;*/
+   box-shadow: 5px 5px var(--blue-3);
+   transition: transform 2s ease-out 1s;/*transformation duration timing function delay */
+  
+    
+    
+}
+.card:hover {
+   transform: scale(1.05);
+
+}
+.first{
+    margin:30px 50px;
+    display:inline-block;
+    /*background-color: yellow;*/
+}
+h1{
+   width: 200px;
+   margin:0;
+}
+.first p{
+    font-size: 23px;
+    width: 300px;;
+    margin-top:10px;
+    color:var(--blue-4);
+}
+#block-col{
+    background-color: var(--blue-1);
+    margin:0px;
+    font-size: 50px;
+    text-align: center;
+    color:black;
+}
+.second p{
+    margin:10px 30px;
+   /*display:inline-block;*/
+  /*  background-color: yellow;*/
+    font-size: 23px;
+    margin-bottom:0px;
+    color:rgb(81, 86, 91);
+}
+#se-line{
+    display:inline-block;
+    margin-top:0px;
+    margin-left:90px;
+    
+}
+.third{
+    margin:30px 50px;
+    display:inline-block;
+    font-size: 23px;
+    color:rgb(43, 40, 40);
+   /* background-color: yellow;*/
+   
+
+}
+.third p{
+    margin:10px 0px;
+}
+#button {
+    margin:0px 50px;
+   /* display:inline-block;*/
+    /*background-color: yellow;*/
+    font-size: 30px;
+    text-align: center;
+    height: 39px;
+    padding: 7px;
+    border:1px solid rgb(180, 177, 177);
+    border-radius: 5px;
+    color: rgb(7, 8, 8);
+    transition:background-color 2s ease-out 1s;
+    
+   
+
+}
+#button:hover {
+    color:rgb(219, 235, 235);
+    background-color:var(--blue-1);
+}
+.icon-1 {
+    display: flex;
+    flex-direction: row;
+}
+svg {
+    height:20px;
+    width: 20px;
+}
+.icon-1 p {
+    margin: 0px;
+    margin-left: 10px;
+}
+.icon-2 {
+    display: flex;
+    flex-direction: row;
+}
+.icon-2 p {
+    margin: 0px;
+    margin-left: 10px;
+}
+.icon-3{
+    display: flex;
+    flex-direction: row;
+}
+.icon-3 p {
+    margin: 0px;
+    margin-left: 10px;
+}
